@@ -161,7 +161,7 @@
                     google.pacman && google.pacman.destroy();
                     if (google.doodle.pmlInstalled) {
                         for (var a = (document.getElementById("xjsc") || document.body).getElementsByTagName("script"), c = 0, b; b = a[c++]; )
-                            -1 != b.src.indexOf("https://www.google.com/logos/js/pacman10-hp.12.js") && b && b.parentNode && b.parentNode.removeChild(b);
+                            -1 != b.src.indexOf("/logos/js/pacman10-hp.12.js") && b && b.parentNode && b.parentNode.removeChild(b);
                         google.doodle.pmlInstalled = !1
                     }
                 }));
